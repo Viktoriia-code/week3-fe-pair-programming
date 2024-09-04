@@ -17,8 +17,8 @@ function Tour({ image, date, title, info, location, duration, cost }) {
             </span>
             {location}
           </p>
-          <p>{cost}</p>
-          <p>{duration}</p>
+          <p>from €{cost}</p>
+          <p>{duration} days</p>
         </div>
       </div>
     </article>
